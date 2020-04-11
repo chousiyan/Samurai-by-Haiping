@@ -1,0 +1,146 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    display: grid;
+}
+
+.game-area {
+
+
+    box-shadow: 0px 0px 70px 5px rgb(212, 4, 21);
+
+    /* justify-self: center;
+    align-self: center; */
+}
+
+.preload {
+    display: none;
+}
+
+.title {
+    position: absolute;
+    left: 250px;
+    top: 45px;
+
+}
+
+.signature {
+    position: absolute;
+    left: 505px;
+    top: 345px;
+
+    font-family: 'Open Sans Condensed',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.w {
+    position: absolute;
+    left: 170px;
+    top: 155px;
+    display: none;
+}
+
+.s {
+    position: absolute;
+    left: 170px;
+    top: 155px;
+    display: none;
+}
+
+.d {
+    position: absolute;
+    left: 170px;
+    top: 155px;
+    display: none;
+}
+
+
+
+.start-button {
+    position: absolute;
+    left: 450px;
+    top: 125px;
+    width: 200px;
+    height: 50px;
+
+    background-color: transparent;
+    border: none;
+
+
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 90px;
+    text-align: center;
+
+    transition-duration: 0.5s;
+
+}
+
+.start-button:hover {
+    color: red;
+    text-shadow: 0px 0px 15px red;
+}
+
+.restart-button {
+    position: absolute;
+    left: 430px;
+    top: 175px;
+
+
+    background-color: transparent;
+    border: none;
+    display: none;
+
+    color: white;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    text-align: center;
+
+    transition-duration: 0.4s;
+
+}
+
+.restart-button:hover {
+    color: red;
+}
+
+
+
+.button-center {
+    position: relative;
+    justify-self: center;
+    align-self: center;
+}
+
+.end {
+    position: absolute;
+    right: 55px;
+    top: 345px;
+
+    font-family: 'Open Sans Condensed',
+        sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}

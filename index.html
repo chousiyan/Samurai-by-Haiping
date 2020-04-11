@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Samurai</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body style="background-color:black">
+
+    <div class="button-center">
+        <canvas class="game-area" id="game-area" width="1100" height="400"> </canvas>
+        <div>
+            <img src="assets/img/title.png" alt="samurai run" id="title" class="title">
+            <button id="start-button" class="start-button">
+                run!
+            </button>
+            <div id="signature" class="signature">
+                haiping liao
+            </div>
+        </div>
+        <div>
+            <img src="assets/img/w.png" alt="w" id="w" class="w">
+            <img src="assets/img/s.png" alt="s" id="s" class="s">
+            <img src="assets/img/d.png" alt="d" id="d" class="d">
+        </div>
+
+        <div id="end" class="end">
+            To be Continue...
+        </div>
+        <button id="restart-button" class="restart-button">
+            run again!
+        </button>
+    </div>
+
+
+    <!-- from vendor -->
+    <script src="assets/js/vendor/pxloader-all.min.js"></script>
+
+    <!-- mine -->
+    <script src="assets/js/curtain.js"></script>
+    <script src="assets/js/key.js"></script>
+    <script src="assets/js/frontBg.js"></script>
+    <script src="assets/js/sun.js"></script>
+    <script src="assets/js/stillBackGround.js"></script>
+    <script src="assets/js/background.js"></script>
+    <script src="assets/js/player.js"></script>
+    <script src="assets/js/enemy.js"></script>
+    <script src="assets/js/game.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+</html>
